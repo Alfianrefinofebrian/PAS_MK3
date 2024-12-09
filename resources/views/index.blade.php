@@ -23,12 +23,17 @@
     </header>
 
     <section id="home" class="hero flex items-center justify-center text-center h-screen bg-[url('asset/color-desktop-wallpaper-1.jpg')] bg-cover bg-center px-5">
-        <div class="container mx-auto">
-            <h2 class="text-3xl md:text-5xl font-bold text-black mb-3">Find Your Color!</h2>
-            <p class="text-lg md:text-xl text-black mb-6">Color Palette</p>
-            <button class="btn bg-red-500 text-white px-6 py-2 rounded-md hover:bg-red-600 transition duration-300" onclick="goToPage()">Find Now</button>
-        </div>
-    </section>
+    <div class="container mx-auto">
+        <h2 class="text-3xl md:text-5xl font-bold text-black mb-3">Find Your Color!</h2>
+        <p class="text-lg md:text-xl text-black mb-6">Color Palette</p>
+        <a href="/home">
+            <button class="btn bg-red-500 text-white px-6 py-2 rounded-md hover:bg-red-600 transition duration-300">
+                Find Now
+            </button>
+        </a>
+    </div>
+</section>
+
     <script src="javascript.js"></script>
 
 

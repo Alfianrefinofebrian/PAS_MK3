@@ -17,4 +17,25 @@ export default {
         },
     },
     plugins: [],
+    
 };
+module.exports = {
+    theme: {
+      extend: {
+        keyframes: {
+          colorCycle: {
+            '0%': { backgroundColor: '#FF5733' }, // Warna 1
+            '25%': { backgroundColor: '#33FF57' }, // Warna 2
+            '50%': { backgroundColor: '#3357FF' }, // Warna 3
+            '75%': { backgroundColor: '#FF33A1' }, // Warna 4
+            '100%': { backgroundColor: '#FF5733' }, // Kembali ke Warna 1
+          },
+        },
+        animation: {
+          colorCycle: 'colorCycle 5s infinite', // Atur durasi dan pengulangan
+        },
+      },
+    },
+    plugins: [],
+  };
+  

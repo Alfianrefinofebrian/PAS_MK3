@@ -32,9 +32,8 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
-
-
-// Single function to navigate to another page (Remove duplicate function)
 function goToPage() {
     window.location.href = 'pktpalette';
 }
+
+
